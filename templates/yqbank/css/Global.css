@@ -1,0 +1,168 @@
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+PRE {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TEXTAREA {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BLOCKQUOTE {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+IMG {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TABLE {
+	FONT-SIZE: 12px
+}
+TD {
+	FONT-SIZE: 12px
+}
+TR {
+	FONT-SIZE: 12px
+}
+TH {
+	FONT-SIZE: 12px
+}
+LI {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; VERTICAL-ALIGN: top; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+OL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+UL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+DIV {
+	FONT: 12px/24px Verdana, Geneva, sans-serif; COLOR: #333
+}
+UL {
+	FONT: 12px/24px Verdana, Geneva, sans-serif; COLOR: #333
+}
+LI {
+	FONT: 12px/24px Verdana, Geneva, sans-serif; COLOR: #333
+}
+H1 {
+	FONT: 12px/24px Verdana, Geneva, sans-serif; COLOR: #333
+}
+H2 {
+	FONT: 12px/24px Verdana, Geneva, sans-serif; COLOR: #333
+}
+H3 {
+	FONT: 12px/24px Verdana, Geneva, sans-serif; COLOR: #333
+}
+H4 {
+	FONT: 12px/24px Verdana, Geneva, sans-serif; COLOR: #333
+}
+H5 {
+	FONT: 12px/24px Verdana, Geneva, sans-serif; COLOR: #333
+}
+H6 {
+	FONT: 12px/24px Verdana, Geneva, sans-serif; COLOR: #333
+}
+OL {
+	FONT: 12px/24px Verdana, Geneva, sans-serif; COLOR: #333
+}
+DL {
+	FONT: 12px/24px Verdana, Geneva, sans-serif; COLOR: #333
+}
+DD {
+	FONT: 12px/24px Verdana, Geneva, sans-serif; COLOR: #333
+}
+DT {
+	FONT: 12px/24px Verdana, Geneva, sans-serif; COLOR: #333
+}
+SPAN {
+	FONT: 12px/24px Verdana, Geneva, sans-serif; COLOR: #333
+}
+.fix {
+	
+}
+.fix:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; OVERFLOW: hidden; CONTENT: "clear"
+}
+A {
+	OUTLINE-STYLE: none; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #333
+}
+A:visited {
+	COLOR: #333
+}
+A:hover {
+	COLOR: #015e9a
+}
+A:active {
+	COLOR: #015e9a
+}
+.l1:link {
+	COLOR: #0070b4; TEXT-DECORATION: none
+}
+.l1:visited {
+	COLOR: #0070b4; TEXT-DECORATION: none
+}
+.l1:hover {
+	COLOR: #0070b4; TEXT-DECORATION: underline
+}
+.l1:active {
+	COLOR: #0070b4; TEXT-DECORATION: underline
+}
+.h167 {
+	HEIGHT: 167px
+}

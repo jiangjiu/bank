@@ -1,0 +1,587 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>乐清农商银行</title>
+<meta content="乐清农商银行" name="keywords">
+<meta content="乐清农商银行" name="description">
+<link href="/templates/yqbank/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/css/validate.css" />
+<link rel="stylesheet" href="/swl_321_scripts/ui/skins/Aqua/css/ligerui-all.css" />
+<link type="text/css" rel="stylesheet" href="/css/pagination.css" />
+<link rel="stylesheet" href="/templates/yqbank/css/style.css" />
+<script type="text/javascript" src="/swl_321_scripts/jquery/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/swl_321_scripts/jquery/jquery.form.js"></script>
+<script type="text/javascript" src="/swl_321_scripts/jquery/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/swl_321_scripts/jquery/messages_cn.js"></script>
+<script type="text/javascript" src="/swl_321_scripts/ui/js/ligerBuild.min.js"></script>
+<script type="text/javascript" src="/templates/yqbank/js/base.js"></script>
+<script type="text/javascript">
+$(function(){
+	//初始化发表评论表单
+	//AjaxOnSubmit('comment_form', 'btnSubmit', '/plugins/feedback/ajax.ashx?action=add');
+	AjaxInitForm('feedback_form', 'btnSubmit', 1);
+});
+</script>
+</head>
+
+<body>
+<SCRIPT type=text/javascript src="/templates/yqbank/js/jquery2_1_1min.js">
+</SCRIPT>
+<SCRIPT type=text/javascript src="/templates/yqbank/js/nav.js">
+</SCRIPT>
+
+<LINK rel=stylesheet type=text/css href="/templates/yqbank/css/Global.css">
+<LINK rel=stylesheet type=text/css href="/templates/yqbank/css/navbar.css">
+<link href="/templates/yqbank/css/easydialog.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="/templates/yqbank/js/easydialog.min.js"></script>
+
+<table width="940" height="100" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+     <td align="right" valign="top" class="font1" style="padding:13px 25px 20px 0px;">
+	<a href="/service/service-269.aspx" class="help">网点分布</a> &nbsp;|&nbsp; 
+	<a href="/intro/intro-4.aspx" class="help">联系我们</a> &nbsp;|&nbsp; 
+	<a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.yqbank.com/')" href="#" class="help">设为首页</a> &nbsp;|&nbsp; 
+	<a onclick="window.external.AddFavorite('http://www.yqbank.com','乐清农商银行')" href="#" class="help">加入收藏</a></td>
+  </tr>
+  <tr>
+      <td><img src="/templates/yqbank/images/top1.jpg" width="940" height="100" /></td>
+  </tr>
+</table>
+
+
+<table align="center" width="940" border="0">
+<tr>
+    <td>
+<DIV align=center class=nav>
+<DIV class=container>
+<UL class=topnav>
+  <LI class=topnavli><A class=top  href="/index.aspx">网站首页</A></LI>
+  <LI class=topnavli><A class=top href="/news/1/1.aspx">今日农商</A> 
+	  <DIV class=subnav>
+		<UL>
+            
+            <LI><a href="/news/6/1.aspx">通知公告</a></LI>
+            
+            <LI><a href="/news/1/1.aspx">农商动态</a></LI>
+            
+            <LI><a href="/news/70/1.aspx">媒体报道</a></LI>
+            
+            <LI><a href="/news/106/1.aspx">信息披露</a></LI>
+            
+		</UL>
+	  </DIV>
+  </LI>
+  <LI class=topnavli><A class=top href="/personal_c.aspx">我要借款</A> 
+	  <DIV class=subnav>
+		<UL>
+			
+            <LI><a href="/personal/72/1.aspx">助农贷款系列</a></LI>
+            
+            <LI><a href="/personal/95/1.aspx">小微贷款系列</a></LI>
+            
+            <LI><a href="/personal/96/1.aspx">乐商贷款系列</a></LI>
+            
+            <LI><a href="/personal/97/1.aspx">项目贷款系列</a></LI>
+            
+		</UL>
+	  </DIV>
+  </LI>
+  <LI class=topnavli><A class=top href="/corp_c.aspx">我要理财</A> 
+	  <DIV class=subnav>
+		<UL>
+			
+            <LI><a href="/corp/105/1.aspx">丰收喜悦</a></LI>
+            
+            <LI><a href="/corp/68/1.aspx">丰收汇鑫</a></LI>
+            
+            <LI><a href="/corp/67/1.aspx">丰收聚金</a></LI>
+            
+            <LI><a href="/corp/65/1.aspx">丰收信福</a></LI>
+            
+            <LI><a href="/corp/64/1.aspx">丰收汇金</a></LI>
+            
+		</UL>
+	  </DIV>
+  </LI>
+
+
+  <LI class=topnavli><A class=top href="/ebank/ebank-281.aspx">电子银行</A> 
+	  <DIV class=subnav>
+		<UL>
+			
+            <LI><a href="/ebank/ebank-281.aspx">个人网银</a></A></LI>
+            
+            <LI><a href="/ebank/ebank-280.aspx">企业网银</a></A></LI>
+            
+            <LI><a href="/ebank/ebank-279.aspx">手机银行</a></A></LI>
+            
+            <LI><a href="/ebank/ebank-278.aspx">微信银行</a></A></LI>
+            
+            <LI><a href="/ebank/ebank-277.aspx">短信通</a></A></LI>
+            
+            <LI><a href="/ebank/ebank-276.aspx">POS业务</a></A></LI>
+            
+            <LI><a href="/ebank/ebank-275.aspx">助农取款服务</a></A></LI>
+            
+		</UL>
+	  </DIV>
+  </LI>
+  <LI class=topnavli><A class=top href="/brand/brand-285.aspx">关于我们</A> 
+	  <DIV class=subnav>
+		<UL>
+			
+			<LI><a href="/brand/brand-285.aspx">发展历程</a></LI>
+			
+			<LI><a href="/brand/brand-284.aspx">组织架构</a></LI>
+			
+			<LI><a href="/brand/brand-283.aspx">董事长致辞</a></LI>
+			
+			<LI><a href="/brand/brand-282.aspx">品牌介绍</a></LI>
+			　
+		</UL>
+	  </DIV>
+  </LI>
+  <LI class=topnavli><A class=top href="/recruit/80/1.aspx">人才招聘</A></LI>
+  </UL>
+  </DIV>
+  </DIV>
+	</td>
+  </tr>
+</table>
+<table width="940" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="210" align="center">
+<table width="210" height="192" border="0" cellpadding="0" cellspacing="0" class="tab1">
+      <tr>
+        <td align="center" valign="top" style="">
+			<a href="/demand.aspx" class="login">
+			<img src="/templates/yqbank/images/wyjk.gif" border="0" /></a>
+		</td>
+      </tr>
+</table>
+</td>
+    <td width="10">&nbsp;</td>
+    <td width="720" align="center" valign="top"><table width="720" border="0" align="center" cellpadding="0" cellspacing="0" class="tab1">
+      <tr>
+        <td><img src="/templates/yqbank/images/intro_pic.jpg" width="720" height="190" /></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+<table width="940" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="210" rowspan="2" align="center" valign="top">
+	
+	<table width="210" border="0" align="center" cellpadding="0" cellspacing="0" class="tab1">
+          <tr>
+            <td height="36" align="left" style="background:url(/templates/yqbank/images/lm1.jpg) left top no-repeat;"class="font3">最新公告</td>
+            <td align="right" style="background:url(/templates/yqbank/images/lm1.jpg) right top no-repeat;"><a  style="color:#FFFFFF;" href="/news/6/1.aspx">更多&gt;&gt;</a>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center" class="td1">
+			<table width="178" border="0" cellpadding="0" cellspacing="0" class="font1">
+			
+                <tr>
+                  <td width="16" height="26" align="center" class="td2"><img src="/templates/yqbank/images/jiutuo1.gif" width="8" height="9" /></td>
+                  <td height="26" align="left" class="td2"><a href="/news_detail/news_detail-1006.aspx" title="浙江银行业押品资产信息网">浙江银行业押品资产信息网…</a></td>
+                </tr>
+			
+                <tr>
+                  <td width="16" height="26" align="center" class="td2"><img src="/templates/yqbank/images/jiutuo1.gif" width="8" height="9" /></td>
+                  <td height="26" align="left" class="td2"><a href="/news_detail/news_detail-990.aspx" title="关于召开浙江乐清农村商业银行股份有限公司2016年股东大会的通知">关于召开浙江乐清农村商业…</a></td>
+                </tr>
+			
+                <tr>
+                  <td width="16" height="26" align="center" class="td2"><img src="/templates/yqbank/images/jiutuo1.gif" width="8" height="9" /></td>
+                  <td height="26" align="left" class="td2"><a href="/news_detail/news_detail-947.aspx" title="乐清农商银行2016年3月理财发行计划">乐清农商银行2016年3月理…</a></td>
+                </tr>
+			
+                <tr>
+                  <td width="16" height="26" align="center" class="td2"><img src="/templates/yqbank/images/jiutuo1.gif" width="8" height="9" /></td>
+                  <td height="26" align="left" class="td2"><a href="/news_detail/news_detail-873.aspx" title="2016年2月理财发行计划">2016年2月理财发行计划</a></td>
+                </tr>
+			
+                <tr>
+                  <td width="16" height="26" align="center" class="td2"><img src="/templates/yqbank/images/jiutuo1.gif" width="8" height="9" /></td>
+                  <td height="26" align="left" class="td2"><a href="/news_detail/news_detail-809.aspx" title="2016年1月份理财产品发行计划">2016年1月份理财产品发行…</a></td>
+                </tr>
+			
+                <tr>
+                  <td width="16" height="26" align="center" class="td2"><img src="/templates/yqbank/images/jiutuo1.gif" width="8" height="9" /></td>
+                  <td height="26" align="left" class="td2"><a href="/news_detail/news_detail-768.aspx" title="2015年12月份理财产品发行计划">2015年12月份理财产品发行…</a></td>
+                </tr>
+			
+            </table>			</td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="/templates/yqbank/images/lm1_down.jpg" width="210" height="17" /></td>
+          </tr>
+        </table>
+
+	
+	<table width="210" border="0" align="center" cellpadding="0" cellspacing="0" class="tab1">
+          <tr>
+            <td><a href="#">
+              <a href="/service/service-130.aspx"><img src="/templates/yqbank/images/outlets.jpg" width="210" height="72" border="0" /></a>
+            </a></td>
+          </tr>
+      </table>
+      <table width="210" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="36" align="left" background="/templates/yqbank/images/lm1.jpg" class="font3">理财工具</td>
+          </tr>
+          <tr>
+            <td align="center" class="td1"><table width="178" border="0" cellpadding="0" cellspacing="0" class="font1">
+                <tr>
+                  <td width="28" height="26" align="center" class="td2"><img src="/templates/yqbank/images/ico1.gif" width="20" height="18" /></td>
+                  <td height="33" align="left" class="td2"><a href="/service/service-263.aspx" class="soon">个人储蓄计算</a></td>
+                </tr>
+                <tr>
+                  <td height="26" align="center" class="td2"><img src="/templates/yqbank/images/ico2.gif" width="20" height="18" /></td>
+                  <td height="33" align="left" class="td2"><a href="/service/service-264.aspx" class="soon">个人贷款计算</a></td>
+                </tr>
+                <tr>
+                  <td height="26" align="center" class="td2"><img src="/templates/yqbank/images/ico3.gif" width="20" height="18" /></td>
+                  <td height="33" align="left" class="td2"><a href="/service/service-265.aspx" class="soon">外币兑换计算</a></td>
+                </tr>
+                <tr>
+                  <td height="26" align="center" class="td2"><img src="/templates/yqbank/images/ico4.gif" width="20" height="18" /></td>
+                  <td height="33" align="left" class="td2"><a href="/service/service-266.aspx" class="soon">国债收益计算</a></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td><img src="/templates/yqbank/images/lm1_down.jpg" width="210" height="17" /></td>
+          </tr>
+      </table></td>
+    <td width="10" rowspan="2">&nbsp;</td>
+    <td width="720" align="center" valign="top" background="/templates/yqbank/images/con_bj.jpg"><table width="720" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="left" background="/templates/yqbank/images/lm3_bj.jpg"><table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td><img src="/templates/yqbank/images/lm3_ico.jpg" width="35" height="34" /></td>
+              <td class="font7">用户留言</td>
+              <td><img src="/templates/yqbank/images/lm3_xian.jpg" width="17" height="34" /></td>
+              <td class="font6">Feedback</td>
+            </tr>
+        </table></td>
+        <td align="right" background="/templates/yqbank/images/lm3_bj.jpg"><table border="0" cellpadding="0" cellspacing="0" class="font1">
+          <tr>
+            <td><img src="/templates/yqbank/images/ico_h.gif" width="17" height="12" /></td>
+            <td valign="middle" style="padding-top:2px;">网站首页 &gt;<span class="font7">用户留言</span></td>
+            <td><img src="/templates/yqbank/images/lm3_right.jpg" width="15" height="34" /></td>
+          </tr>
+        </table>          </td>
+      </tr>
+    </table>
+      <table width="720" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td><img src="/templates/yqbank/images/con_yy.jpg" width="720" height="22" /></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="7"></td>
+        </tr>
+      </table>
+      
+	  <table width="100%" border="0">
+  <tr>
+    <td>
+	
+  <div class="left710">
+   <!--Content-->
+    <div class="content">
+
+      <!--留言列表-->
+      <div class="comment_box">
+        <ol class="comment_list">
+          
+          
+          <li>
+            <div class="floor">#1</div>
+            <div class="inner" style="margin-left:0;">
+              <p>请问你们的营业时间是？ <br />周六、周日 也有营业吗？</p>
+              <div class="meta">
+                <span class="blue">rayzen</span>
+                <span class="time">2016-1-14 14:06:14</span>
+              </div>
+            </div>
+            
+            
+            <div class="answer" style="margin-left:0;">
+              <div class="meta">
+                <span class="right time">2016-2-24 10:52:06</span>
+                <span class="blue">管理员回复：</span>
+              </div>
+              <p>大部分网点都有营业</p>
+            </div>
+            
+            
+          </li>
+          
+          <li>
+            <div class="floor">#2</div>
+            <div class="inner" style="margin-left:0;">
+              <p>如果有别的银行的ETC了 是要先取消再来申请信用卡和ETC还是可以先申请信用卡 在取消过来办理？</p>
+              <div class="meta">
+                <span class="blue">xxcvzb</span>
+                <span class="time">2015-11-9 17:28:57</span>
+              </div>
+            </div>
+            
+            
+            
+          </li>
+          
+          <li>
+            <div class="floor">#3</div>
+            <div class="inner" style="margin-left:0;">
+              <p>柳市电器城支行可以办理ETC业务吗</p>
+              <div class="meta">
+                <span class="blue">大白</span>
+                <span class="time">2015-10-27 14:58:01</span>
+              </div>
+            </div>
+            
+            
+            <div class="answer" style="margin-left:0;">
+              <div class="meta">
+                <span class="right time">2016-2-24 10:53:36</span>
+                <span class="blue">管理员回复：</span>
+              </div>
+              <p>可以的</p>
+            </div>
+            
+            
+          </li>
+          
+          <li>
+            <div class="floor">#4</div>
+            <div class="inner" style="margin-left:0;">
+              <p>乐清农商小额贷款卡能不能接受外币，比如说PAYPAL或者支付宝国际账号的外币转账，如果可以的话，SWIFT代码是多少</p>
+              <div class="meta">
+                <span class="blue">黑子</span>
+                <span class="time">2015-10-22 11:25:47</span>
+              </div>
+            </div>
+            
+            
+            <div class="answer" style="margin-left:0;">
+              <div class="meta">
+                <span class="right time">2015-10-23 8:56:20</span>
+                <span class="blue">管理员回复：</span>
+              </div>
+              <p>最好留下您的联系方式</p>
+            </div>
+            
+            
+          </li>
+          
+          <li>
+            <div class="floor">#5</div>
+            <div class="inner" style="margin-left:0;">
+              <p>请问乐清农商银行现在办理etc的网点有哪几处</p>
+              <div class="meta">
+                <span class="blue">obliviate</span>
+                <span class="time">2015-10-21 18:36:04</span>
+              </div>
+            </div>
+            
+            
+            <div class="answer" style="margin-left:0;">
+              <div class="meta">
+                <span class="right time">2015-10-23 8:56:48</span>
+                <span class="blue">管理员回复：</span>
+              </div>
+              <p>目前开通ETC的已经有9家支行，包括乐成、营业部等，详细请关注我行微信平台</p>
+            </div>
+            
+            
+          </li>
+          
+          <li>
+            <div class="floor">#6</div>
+            <div class="inner" style="margin-left:0;">
+              <p>您好，乐清农商银行能够处理外币业务吗？能将支付宝国际账户或者paypal账户里的美元转到农商银行吗？如果能转的话，那贵行的swift 代码是什么？兑汇的流程是怎么样的？</p>
+              <div class="meta">
+                <span class="blue">peng</span>
+                <span class="time">2015-10-8 22:49:20</span>
+              </div>
+            </div>
+            
+            
+            <div class="answer" style="margin-left:0;">
+              <div class="meta">
+                <span class="right time">2015-10-23 8:56:02</span>
+                <span class="blue">管理员回复：</span>
+              </div>
+              <p>具体咨询国际业务中心13757876878丁经理</p>
+            </div>
+            
+            
+          </li>
+          
+          <li>
+            <div class="floor">#7</div>
+            <div class="inner" style="margin-left:0;">
+              <p>您好  请问以前没有贷款过  上班族 请问贷款能否好贷</p>
+              <div class="meta">
+                <span class="blue">简单幸福</span>
+                <span class="time">2015-10-8 21:29:12</span>
+              </div>
+            </div>
+            
+            
+            <div class="answer" style="margin-left:0;">
+              <div class="meta">
+                <span class="right time">2015-10-23 8:52:23</span>
+                <span class="blue">管理员回复：</span>
+              </div>
+              <p>可以，具体请申请一下</p>
+            </div>
+            
+            
+          </li>
+          
+          <li>
+            <div class="floor">#8</div>
+            <div class="inner" style="margin-left:0;">
+              <p>我办理的普卡额度太小，根本不够用，请问能升级成金卡吗，提高一些额度？需要办理什么手续</p>
+              <div class="meta">
+                <span class="blue">orange_not2</span>
+                <span class="time">2015-9-11 12:54:30</span>
+              </div>
+            </div>
+            
+            
+            
+          </li>
+          
+          <li>
+            <div class="floor">#9</div>
+            <div class="inner" style="margin-left:0;">
+              <p>在海外经商。需要资金。能办理贷款吗</p>
+              <div class="meta">
+                <span class="blue">光</span>
+                <span class="time">2015-8-29 12:13:57</span>
+              </div>
+            </div>
+            
+            
+            <div class="answer" style="margin-left:0;">
+              <div class="meta">
+                <span class="right time">2015-10-23 8:50:42</span>
+                <span class="blue">管理员回复：</span>
+              </div>
+              <p>要看您的具体情况，可以申请一下。</p>
+            </div>
+            
+            
+          </li>
+          
+          <li>
+            <div class="floor">#10</div>
+            <div class="inner" style="margin-left:0;">
+              <p>贷款5万，不是乐清户口，是洞头的，能不能信用贷款</p>
+              <div class="meta">
+                <span class="blue">阿名</span>
+                <span class="time">2015-8-10 7:57:38</span>
+              </div>
+            </div>
+            
+            
+            <div class="answer" style="margin-left:0;">
+              <div class="meta">
+                <span class="right time">2015-10-23 8:50:01</span>
+                <span class="blue">管理员回复：</span>
+              </div>
+              <p>如果您不方便去网点申请，可以通过电话、官网、微信各大渠道申请，我们会为您分配客户经理。</p>
+            </div>
+            
+            
+          </li>
+          
+          
+        </ol>
+      </div>
+      <div class="line10"></div>
+      <div class="flickr"><span class="disabled">«上一页</span><span class="current">1</span><a href="/feedback/2.aspx">2</a><a href="/feedback/3.aspx">3</a><a href="/feedback/4.aspx">4</a><a href="/feedback/2.aspx">下一页»</a></div> <!--放置页码列表-->
+      <!--/留言列表-->
+      <div class="line10"></div>
+     
+      <h3 class="base_tit">发表留言<a name="Add" id="Add"></a></h3>
+      <div class="line10"></div>
+      <form id="feedback_form" name="feedback_form" url="/plugins/feedback/ajax.ashx?action=add">
+     <div class="form_box">
+       <dl>
+         <dt>用户昵称：</dt>
+         <dd><input id="txtUserName" name="txtUserName" type="text" class="input txt required" /></dd>
+       </dl>
+       <dl>
+         <dt>联系电话：</dt>
+         <dd><input id="txtUserTel" name="txtUserTel" type="text" class="input txt" /></dd>
+       </dl>
+       <dl>
+         <dt>在线QQ：</dt>
+         <dd><input id="txtUserQQ" name="txtUserQQ" type="text" class="input txt" /></dd>
+       </dl>
+       <dl>
+         <dt>电子邮箱：</dt>
+         <dd><input id="txtUserEmail" name="txtUserEmail" type="text" class="input txt" /></dd>
+       </dl>
+       <dl>
+         <dt>留言标题：</dt>
+         <dd><input id="txtTitle" name="txtTitle" type="text" class="input txt required" /></dd>
+       </dl>
+       <dl>
+         <dt>留言内容：</dt>
+         <dd><textarea id="txtContent" name="txtContent" class="input txt required" style="width:350px;height:80px;"></textarea></dd>
+       </dl>
+       <dl>
+         <dt>验证码：</dt>
+         <dd>
+<input id=Token name=Token type=hidden value=410105 /> 
+           <input id="txtCode" name="txtCode" type="text" class="input small required" />
+           <a href="javascript:;" onclick="ToggleCode(this, '/swl_321_tools/verify_code.ashx');return false;"><img src="/swl_321_tools/verify_code.ashx" width="80" height="22" align="absmiddle" /> 看不清楚？</a>
+         </dd>
+       </dl>
+       <dl>
+         <dt></dt>
+         <dd>
+           <input name="btnSubmit" type="submit" value="发表留言" class="btn_submit" />
+         </dd>
+       </dl>
+     </div>
+     <div class="clear"></div>
+     </form>
+     
+    </div>
+    <!--/Content-->
+  </div>
+	
+	
+	</td>
+  </tr>
+</table>
+
+    </td>
+  </tr>
+  
+  <tr>
+    <td align="center" valign="bottom" background="/templates/yqbank/images/con_bj.jpg"><img src="/templates/yqbank/images/con_down.jpg" width="720" height="25" /></td>
+  </tr>
+</table>
+<table width="940" height="102" border="0" align="center" cellpadding="0" cellspacing="0" background="/templates/yqbank/images/jiutuo2images/copy.jpg" class="tab2">
+  <tr>
+    <td align="left" valign="middle" class="font2" style="padding:4px 0 0 28px;">COPYRIGHT ◎ 乐清农商银行 ALL RIGHTS RESERVED.<br />
+      电话：0577-61527888  地址：浙江省乐清市伯乐西路99号  服务热线：4008896596,96596<br />
+      未经允许不得转载信息内容、建立镜像 浙ICP备12016980号-1</td>
+    <td align="right" valign="middle" style="padding-right:25px;"><a href="http://www.yqbank.com/templates/yqbank/images/yingyezhizhao.jpg"><img src="/templates/yqbank/images/gs.gif" width="53" height="63" /></a></td>
+  </tr>
+</table>
+
+</body>
+</html>
